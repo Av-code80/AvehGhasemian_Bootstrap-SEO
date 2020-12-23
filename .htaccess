@@ -1,0 +1,43 @@
+RewriteEngine On
+
+	## no-www -> www
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L,NE,QSA]
+	## http -> https
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L,NE,QSA]
+
+AddType 'text/html; charset=UTF-8' html
+
+<IfModule mod_expires.c>
+
+ ExpiresActive On
+ ExpiresByType image/jpeg "access plus 6 month"
+ ExpiresByType image/jpg "access plus 6 month"
+ ExpiresByType image/png "access plus 6 month"
+ ExpiresByType image/bmp "access plus 6 month"
+ ExpiresByType text/css "access plus 6 month"
+ ExpiresByType application/pdf "access plus 6 month"
+ ExpiresByType text/x-javascript "access plus 6 month"
+ ExpiresByType application/x-shockwave-flash "access plus 6 month"
+ ExpiresByType image/x-icon "access plus 6 month"
+ ExpiresDefault "access plus 6 mois"
+</IfModule>
+
+<IfModule mod_headers.c>
+<FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz)$">
+Header set Cache-Control "max-age=2592000, public"
+</FilesMatch>
+<FilesMatch "\.(js)$">
+Header set Cache-Control "max-age=2592000, private"
+</FilesMatch>
+<filesMatch "\.(html|htm)$">
+Header set Cache-Control "max-age=7200, public"
+</filesMatch>
+# Enleve le cache pour les ressources dynamiques
+<FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
+Header unset Cache-Control
+</FilesMatch>
+</IfModule>
+# END Cache-Control Headers
+
