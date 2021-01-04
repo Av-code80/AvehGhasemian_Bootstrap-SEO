@@ -1,11 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FFF;
+    background: #fff;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
+  }
 
 a,
 button {
