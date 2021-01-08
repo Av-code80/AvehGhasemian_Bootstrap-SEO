@@ -17,16 +17,25 @@ a:hover {
     cursor: pointer;
   }
 
-#page-loading-blocs-notifaction {
+  .focusedInputBlack:focus {
+    border-color: #313030;
+    outline: 0;
+    outline: thin dotted \9;
+    -moz-box-shadow: 0 0 8px #313030;
+    box-shadow: 0 0 8px #313030!important;
+  }
+  
+  #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}
+    background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
+  }
 
-.bloc {
+
+  .bloc {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
@@ -36,25 +45,25 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-}
-
-.bloc .container {
+  }
+  
+  .bloc .container {
     padding-left: 0;
     padding-right: 0;
-}
-
-.bloc-lg {
+  }
+  
+  .bloc-lg {
     padding: 100px 50px;
-}
-
-.bloc-md {
+  }
+  
+  .bloc-md {
     padding: 50px;
-}
-
-.bloc-sm {
+  }
+  
+  .bloc-sm {
     padding: 20px 50px;
-}
-
+  }
+  
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
