@@ -1,7 +1,5 @@
 # Projet 4, Optimiser SEO d'un site web existant
 
-Resources:
-[Maquette READYME.md du site à optimiser](docs/Starting+website.zip)
 
 Objectifs de la mission
   Description du projet:
@@ -34,4 +32,4 @@ Résultat de l'audit SEO :
 Les résultats sont consultables [ici](docs/audit)
 
 Site web statique :
-Consultez le site non-optimisé par [ici](https://www..fr/projet4/)
+Consultez le site non-optimisé par [ici](https://github.com/Av-code80/AvehGhasemian_P4_20122020)
