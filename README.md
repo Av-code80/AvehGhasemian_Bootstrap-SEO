@@ -32,4 +32,4 @@ Résultat de l'audit SEO :
 Les résultats sont consultables [ici](docs/audit)
 
 Site web statique :
-Consultez le site non-optimisé par [ici]()
+Consultez le site non-optimisé par
