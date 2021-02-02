@@ -30,4 +30,4 @@ Résultat de l'audit SEO :
 Les résultats sont consultables [ici](docs/audit)
 
 Site web statique :
-Consultez le site non-optimisé par [ici](optimisation-vitesse-page-spatial)
+Consultez le document du site non-optimisé par [ici](docs/Starting+website.zip)
