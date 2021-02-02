@@ -1,0 +1,14 @@
+{
+  "name": "p4-final-oth",
+  "version": "1.0.0",
+  "description": "Ce projet est réalisé dans le cadre du parcours **Développeur Web** du site [OpenClassrooms](https://openclassrooms.com/ \"OpenClassrooms\")",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
