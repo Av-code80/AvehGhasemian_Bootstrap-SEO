@@ -30,8 +30,8 @@ Compétences évaluées
   Réaliser une recherche des bonnes pratiques en développement web
   Optimiser le référencement d'un site web
 
-Résultat SEO de l'audit :
+Résultat de l'audit SEO :
 Les résultats sont consultables [ici](docs/audit)
 
 Site web statique :
-Le site optimisé est consultable par [ici](https://www.hugohemon.fr/projet4/)
+Consultez le site non-optimisé par [ici](https://www..fr/projet4/)
