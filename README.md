@@ -1,7 +1,7 @@
 # Projet 4, Optimiser SEO d'un site web existant
 
-Documentations
-[Maquette READYMADE du site à optimiser](docs/Starting+website.zip)
+Resources:
+[Maquette READYME.md du site à optimiser](docs/Starting+website.zip)
 
 Objectifs de la mission
   Description du projet:
