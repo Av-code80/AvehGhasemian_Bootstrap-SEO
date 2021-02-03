@@ -1,5 +1,5 @@
 # Projet 4, Optimiser SEO d'un site web existant
-![](https://github.com/Guetso/OC---Developpeur-web---Projet-4/blob/master/img/logo.png), ![](favicon.jpg)
+![](https://github.com/Guetso/OC---Developpeur-web---Projet-4/blob/master/img/logo.png) ![](favicon.jpg)
 
 # Objectifs de la mission et Description du projet
 
@@ -34,3 +34,4 @@ Vous pouvez consulter [Les résultats de l'audit SEO](docs/audit)
 # Résultat :
 Consultez [mon site optimisé : La Chouette Agence](docs/Starting+website.zip)
 N'hésitez pas à me faire part de vos propositions afin d'améliorer le fonctionnement de ce siteweb...
+![](https://github.com/Av-code80/AvehGhasemian_P4_20122020/blob/master/img/office.jpg)
