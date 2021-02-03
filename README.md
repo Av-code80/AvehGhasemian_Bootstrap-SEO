@@ -32,7 +32,8 @@
 Vous pouvez consulter [Les résultats de l'audit SEO](docs/audit)
 
 # Résultat :
-Consultez [mon site optimisé : La Chouette Agence](docs/Starting+website.zip)
+Consultez [mon site optimisé : La Chouette Agence](https://av-code80.github.io/AvehGhasemian_P4_20122020/)
+
 N'hésitez pas à me faire part de vos propositions afin d'améliorer le fonctionnement de ce siteweb...
 
 ![](https://github.com/Av-code80/AvehGhasemian_P4_20122020/blob/master/img/office.jpg)
